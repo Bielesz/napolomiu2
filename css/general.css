@@ -57,6 +57,11 @@ Medium: 11px
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 
+:root {
+  --color-primary: #5ec576;
+  --color-primary-darker: #4bbb7d;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -80,6 +85,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+  /* background-color: #fdf2e9; */
 
   /* Only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
@@ -135,16 +141,14 @@ body {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  font-weight: 700;
+  font-weight: 600;
   color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
-  letter-spacing: -0.5px;
+  /* letter-spacing: -0.5px; */
 }
 
 .heading-primary {
-  font-size: 5.2rem;
-  line-height: 1.05;
+  font-size: 5.5rem;
+  line-height: 1.5;
   margin-bottom: 3.2rem;
 }
 
@@ -267,12 +271,12 @@ body {
   color: #e67e22;
 }
 
-*:focus {
+/* *:focus {
   outline: none;
-  /* outline: 4px dotted #e67e22; */
-  /* outline-offset: 8px; */
+  outline: 4px dotted #e67e22;
+  outline-offset: 8px;
   box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
-}
+} */
 
 /* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
