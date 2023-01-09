@@ -292,6 +292,27 @@
     height: 32rem;
     grid-row: 1;
   }
+  /**/
+
+  .section-contact {
+    padding: 2.4rem;
+  }
+
+  .section-gallery {
+    padding: 2.4rem;
+  }
+
+  .footer {
+    padding: 2.4rem 0;
+    border-top: 1px solid #eee;
+  }
+
+  .footer__nav {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
 }
 
 /* 
