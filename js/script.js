@@ -11,11 +11,21 @@ btnNavEl.addEventListener("click", function () {
 ///////////////////////////////////////////////////////////
 // Smooth scrolling animation
 
+// document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+//   anchor.addEventListener("click", function (e) {
+//     e.preventDefault();
+
+//     document.querySelector(this.getAttribute("href")).scrollIntoView({
+//       behavior: "smooth",
+//     });
+//   });
+// });
+
 const allLinks = document.querySelectorAll("a:link");
 
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
-    e.preventDefault();
+    // e.preventDefault();
     const href = link.getAttribute("href");
 
     // Scroll back to top
@@ -31,7 +41,7 @@ allLinks.forEach(function (link) {
       sectionEl.scrollIntoView({ behavior: "smooth" });
     }
 
-    // Close mobile naviagtion
+    //     // Close mobile naviagtion
     if (link.classList.contains("main-nav-link"))
       headerEl.classList.toggle("nav-open");
   });

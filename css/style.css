@@ -125,7 +125,6 @@
 
 .hero-img {
   width: 100%;
-  opacity: 0.9;
   border-radius: 8px;
 }
 
@@ -186,7 +185,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  z-index: -1;
+  z-index: -999;
   opacity: 0.7;
   transform: scale(1.07, 1.05) skewX(-15deg);
   background-image: linear-gradient(to top left, #39b385, #9be15d);
