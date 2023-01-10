@@ -75,6 +75,7 @@ html {
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 
   /* Does NOT work on Safari */
   /* scroll-behavior: smooth; */
@@ -150,6 +151,7 @@ body {
   font-size: 5.5rem;
   line-height: 1.5;
   margin-bottom: 3.2rem;
+  color: #333;
 }
 
 .heading-secondary {
