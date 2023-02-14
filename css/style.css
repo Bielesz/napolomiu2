@@ -462,8 +462,9 @@
 .footer__copyright {
   text-align: center;
   color: #767676;
+  font-size: 1.2rem;
 }
 
 .footer__copyright .footer__link {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
